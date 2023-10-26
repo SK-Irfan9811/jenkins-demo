@@ -31,7 +31,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                
+                echo "build"
             }
         }
         stage('Test') {
